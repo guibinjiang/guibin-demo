@@ -1,0 +1,21 @@
+{
+    "name": "guibin/demo",
+    "description": "demo",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "jgb",
+            "email": "864566282@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\Client\\": "src/User/Client"
+        }
+    }
+}
